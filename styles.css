@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(254, 236, 244);
+}
+
+.logo{
+  display: inline-block;
+}
+.header{
+float: right;
+font-size: 20px;
+}
+
+.header p{
+ color: red;
+}
+#time_table{
+text-align: center;
+}
+
+table{
+align-self: center;
+
+}
+
+tr:nth-child(odd){
+background-color: #ddd;
+}
+
+tr:nth-child(even){
+background-color: white;
+}
+
+table,th,td{
+padding: 20px;
+width: 1000px;
+}
+
+#content th {
+background-color: rgb(249, 78, 78);
+
+}
